@@ -35,7 +35,7 @@ Obtain patterns from file, one per line. If this option is used multiple times o
 -y 
 --ignore-case
 Ignore case distinctions, so that characters that differ only in case match each other. Although this is straightforward when letters differ in case only via lowercase-uppercase pairs, the behavior is unspecified in other situations. For example, uppercase “S” has an unusual lowercase counterpart “” (Unicode character U+017F, LATIN SMALL LETTER LONG S) in many locales, and it is unspecified whether this unusual character matches “S” or “s” even though uppercasing it yields “S”. Another example: the lowercase German letter “ß” (U+00DF, LATIN SMALL LETTER SHARP S) is normally capitalized as the two-character string “SS” but it does not match “SS”, and it might not match the uppercase letter “” (U+1E9E, LATIN CAPITAL LETTER SHARP S) even though lowercasing the latter yields the former. -y is an obsolete synonym that is provided for compatibility. (-i is specified by POSIX.)
--v 
+-v  
 --invert-match
 Invert the sense of matching, to select non-matching lines. (-v is specified by POSIX.)
 -c 
